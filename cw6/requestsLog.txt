@@ -1,0 +1,59 @@
+
+Methode: GET
+Path: /api/students
+Body: 
+Query: 
+-----------------------------
+Methode: GET
+Path: /favicon.ico
+Body: 
+Query: 
+-----------------------------
+Methode: COPY
+Path: /api/students
+Body: {
+	"Login": "GGGGG"
+}
+Query: ?LastName=Kowalski
+-----------------------------
+Methode: GET
+Path: /api/students
+Body: 
+Query: 
+-----------------------------
+Methode: GET
+Path: /favicon.ico
+Body: 
+Query: 
+-----------------------------
+Methode: COPY
+Path: /api/students
+Body: {
+	"Login": "GGGGG"
+}
+Query: ?LastName=Kowalski
+-----------------------------
+Methode: COPY
+Path: /api/students
+Body: {
+	"Login": "GGGGG"
+}
+Query: ?LastName=Kowalski
+-----------------------------
+Methode: GET
+Path: /api/students
+Body: 
+Query: 
+-----------------------------
+Methode: GET
+Path: /favicon.ico
+Body: 
+Query: 
+-----------------------------
+Methode: POST
+Path: /api/students
+Body: {
+	"Login": "GGGGG"
+}
+Query: ?LastName=Kowalski
+-----------------------------
